@@ -7,7 +7,7 @@ public class contactTest {
 	
 	
 	@Test(groups = {"smoke","regression"})
-	public void getData() {
+	public void getDataTest() {
 		String URL = System.getProperty("url");
 		String BROWSER = System.getProperty("browser");
 		String USERNAME = System.getProperty("username");
